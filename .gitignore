@@ -1,0 +1,5 @@
+/reports/*
+!/reports/.gitkeep
+/screenshots/*
+!/screenshots/.gitkeep
+/.bundle/
