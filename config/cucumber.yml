@@ -1,0 +1,3 @@
+default: --require features/support/env.rb --publish-quiet --format pretty --format html --out reports/default.html features
+smoke: --require features/support/env.rb --publish-quiet --tags @smoke --format pretty --format html --out reports/smoke.html features
+dry_run: --require features/support/env.rb --publish-quiet --dry-run --format pretty --format html --out reports/dry_run.html features
